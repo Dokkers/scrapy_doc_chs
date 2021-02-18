@@ -88,11 +88,11 @@ the images based on their size.
 
 对于 Images Pipeline, 使用::
 
-    ITEM_PIPELINES = {'scrapy.pipeline.images.ImagesPipeline': 1}
+    ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
 
 对于 Files Pipeline, 使用::
 
-    ITEM_PIPELINES = {'scrapy.pipeline.files.FilesPipeline': 1}
+    ITEM_PIPELINES = {'scrapy.pipelines.files.FilesPipeline': 1}
 
 .. note::
     你可以同时使用 Files 与 Images Pipeline.
